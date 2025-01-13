@@ -232,11 +232,12 @@ const redirects = [
     [ fromIncludes(`/docs/tls/traffic-policy/`), `/docs/traffic-policy/` ],
     [ fromIncludes(`/docs/tcp/traffic-policy/`), `/docs/traffic-policy/` ],
 
-    // DEC 2024 - New TP Getting Started
+    // DEC 2024
     [ fromExact(`/docs/traffic-policy/getting-started/`), `/docs/traffic-policy/getting-started/agent-endpoints/cli` ],
 
-    [ fromExact(`/docs/tls/tls-termination/`), `/docs/tls/termination/` ],
-    [ fromExact(`/docs/tls/tls-termination`), `/docs/tls/termination` ],
+    // JAN 2025
+    [ fromIncludes(`/docs/tls/tls-termination`), `/docs/tls/termination` ],
+    [ fromIncludes(`/docs/traffic-policy/templates`), `/docs/tls/examples` ],
 ]
 
 // get current href from window
