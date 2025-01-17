@@ -38,7 +38,7 @@ const sidebars = {
 			type: "category",
 			collapsible: false,
 			className: "menu__list-item--category",
-			link: { type: "doc", id: "universal-gateway/endpoints/overview" },
+			link: { type: "doc", id: "universal-gateway/overview" },
 			items: [
 				"universal-gateway/overview",
 				{
@@ -46,7 +46,7 @@ const sidebars = {
 					type: "category",
 					items: [
 						{
-							id: "universal-gateway/endpoints/overview",
+							id: "universal-gateway/endpoints",
 							type: "doc",
 							label: "Endpoints",
 						},
@@ -57,46 +57,46 @@ const sidebars = {
 							label: "TCP Addresses",
 						},
 						"universal-gateway/tls-certificates",
-						"universal-gateway/endpoints/edges",
+						"universal-gateway/edges",
 					],
 				},
 				{
 					label: "Endpoints",
 					type: "category",
-					link: { type: "doc", id: "universal-gateway/endpoints/http" },
+					link: { type: "doc", id: "universal-gateway/endpoints-overview" },
 					items: [
 						{
-							id: "universal-gateway/endpoints/overview",
+							id: "universal-gateway/endpoints-overview",
 							type: "doc",
 							label: "Overview",
 						},
 						{
-							id: "universal-gateway/endpoints/agent",
+							id: "universal-gateway/agent-endpoints",
 							type: "doc",
 							label: "Agent Endpoints",
 						},
 						{
-							id: "universal-gateway/endpoints/cloud",
+							id: "universal-gateway/cloud-endpoints",
 							type: "doc",
 							label: "Cloud Endpoints",
 						},
 						{
 							label: "Protocols",
 							type: "category",
-							link: { type: "doc", id: "universal-gateway/endpoints/http" },
+							link: { type: "doc", id: "universal-gateway/http" },
 							items: [
 								{
-									id: "universal-gateway/endpoints/http",
+									id: "universal-gateway/http",
 									type: "doc",
 									label: "HTTP/S",
 								},
 								{
-									id: "universal-gateway/endpoints/tls",
+									id: "universal-gateway/tls",
 									type: "doc",
 									label: "TLS",
 								},
 								{
-									id: "universal-gateway/endpoints/tcp",
+									id: "universal-gateway/tcp",
 									type: "doc",
 									label: "TCP",
 								},
@@ -107,24 +107,24 @@ const sidebars = {
 							type: "category",
 							items: [
 								{
-									id: "universal-gateway/endpoints/public",
+									id: "universal-gateway/public-endpoints",
 									type: "doc",
 									label: "Public",
 								},
 								{
-									id: "universal-gateway/endpoints/internal",
+									id: "universal-gateway/internal-endpoints",
 									type: "doc",
 									label: "Internal",
 								},
 								{
-									id: "universal-gateway/endpoints/kubernetes",
+									id: "universal-gateway/kubernetes-endpoints",
 									type: "doc",
 									label: "Kubernetes",
 								},
 							],
 						},
 						{
-							id: "universal-gateway/endpoints/pools",
+							id: "universal-gateway/endpoint-pools",
 							type: "doc",
 							label: "Pools",
 						},
@@ -135,14 +135,14 @@ const sidebars = {
 					type: "category",
 					link: {
 						type: "doc",
-						id: "universal-gateway/network/global-load-balancer",
+						id: "universal-gateway/global-load-balancer",
 					},
 					items: [
-						"universal-gateway/network/global-load-balancer",
-						"universal-gateway/network/tls-termination",
-						"universal-gateway/network/ddos-protection",
-						"universal-gateway/network/ip-addresses",
-						"universal-gateway/network/points-of-presence",
+						"universal-gateway/global-load-balancer",
+						"universal-gateway/tls-termination",
+						"universal-gateway/ddos-protection",
+						"universal-gateway/ip-addresses",
+						"universal-gateway/points-of-presence",
 					],
 				},
 			],
